@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.SampleController">
+   <children>
+      <TextField fx:id="input1" layoutX="86.0" layoutY="94.0" />
+      <TextField fx:id="input2" layoutX="540.0" layoutY="94.0" />
+      <Label fx:id="lblReponse" alignment="TOP_LEFT" layoutX="73.0" layoutY="405.0" prefHeight="222.0" prefWidth="855.0" text="Réponse: " textFill="RED">
+         <font>
+            <Font size="65.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnA" layoutX="74.0" layoutY="237.0" mnemonicParsing="false" onAction="#addition" text="Addition" />
+      <Button fx:id="btnM" layoutX="540.0" layoutY="237.0" mnemonicParsing="false" onAction="#multiplication" text="Multiplication" />
+      <Button fx:id="btnD" layoutX="790.0" layoutY="237.0" mnemonicParsing="false" onAction="#division" text="Division" />
+      <Button fx:id="btnS" layoutX="254.0" layoutY="237.0" mnemonicParsing="false" onAction="#soustraction" text="Soustraction" />
+   </children>
+</AnchorPane>
